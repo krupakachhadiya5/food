@@ -1,0 +1,430 @@
+/* 321-576 x-sm 1rem=7px*/
+/* 7/16=0.4375
+0.43758*100=43.75 */
+
+
+@media screen and (max-width: 575px) {
+    html {
+        font-size: 43.75%
+    }
+
+    .about-deta img {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+
+    .four-slide {
+        height: 450px;
+    }
+
+    #blog {
+        height: 550px;
+    }
+
+    .first {
+        padding: 4rem 2rem 0rem 2rem;
+    }
+
+    .blog-p {
+        width: 45rem;
+    }
+
+    .hero-wark {
+        left: 0rem;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        text-align: center;
+    }
+
+    .bottomheader .ican {
+        justify-content: center;
+    }
+
+    .about-details .about-wark {
+        padding: 4rem;
+    }
+
+    .four-wark {
+        left: 0;
+        max-width: 100%;
+        bottom: 0;
+        padding: 2rem;
+
+    }
+
+    .four-wark span {
+        margin-right: 71rem;
+    }
+
+    .four-wark .btt {
+        float: left;
+        width: 21%;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        left: 33%;
+    }
+
+    #menu {
+        height: 160rem;
+    }
+
+    .element {
+        row-gap: 7rem;
+        padding: 0;
+    }
+
+    .spring-i {
+        width: 93%;
+    }
+
+    .topheader {
+        display: none;
+    }
+
+    .hero-deta h2 {
+        font-size: 7rem;
+    }
+
+    .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {
+        align-items: center;
+        bottom: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5rem;
+        justify-content: center;
+        width: 100%;
+        top:87%;
+    }
+
+    .team-img{
+        padding: 0;
+    }
+
+    .team-img img{
+        margin: 0 auto;
+    }
+
+    .team-img p{
+        text-align: center;
+        padding-top: 3rem;
+    }
+
+    .footer-img img {
+        width: 50%;
+    }
+
+}
+
+
+/* 0-320 1rem=7px*/
+@media screen and (max-width: 520px) {}
+
+
+/* 576-767 sm 1rem=7px*/
+@media screen and (min-width: 576px) {
+
+    html {
+        font-size: 43.75%
+    }
+
+    .mySwiper {
+        height: 53vh;
+    }
+
+    .four-slide {
+        height: 450px;
+    }
+
+    #blog {
+        height: 450px;
+    }
+
+    .blog-p {
+        width: 77rem;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        text-align: center;
+    }
+
+    .bottomheader .ican {
+        justify-content: center;
+    }
+
+
+    .about-details .about-wark {
+        padding: 12rem;
+    }
+
+    .four-wark {
+        left: 0;
+        max-width: 100%;
+        padding: 8rem;
+        bottom: 0;
+    }
+
+    .four-wark span {
+        margin-right: 94rem;
+    }
+
+    .four-wark .btt {
+        float: left;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        left: 27rem;
+    }
+
+    #menu {
+        height: 160rem;
+    }
+
+    .element {
+        row-gap: 7rem;
+        justify-content: center;
+    }
+
+    .spring-i {
+        width: 94%;
+    }
+}
+
+
+/* 768-991 md 1rem=8px*/
+@media screen and (min-width: 768px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .four-wark {
+        left: 14%;
+
+    }
+
+    .mySwiper {
+        height: 57vh;
+    }
+
+
+    .four-slide {
+        height: 500px;
+    }
+
+    #blog {
+        height: 500px;
+    }
+
+    .topheader {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .blog-p {
+        width: 90rem;
+    }
+
+
+    /* .four-wark {
+        max-width: 580px;
+    } */
+
+    .four-wark {
+        max-width: 580px;
+        position: absolute;
+        top: 15%;
+        padding: 3rem;
+        border-radius: 1rem;
+        bottom: auto;
+    }
+
+
+
+    .four-wark .btt {
+        float: left;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        left: 0rem;
+    }
+
+    .element {
+        row-gap: 5rem;
+        justify-content: center;
+    }
+
+    .spring-i {
+        width: 95%;
+        left: 1.1rem;
+
+    }
+
+}
+
+/* 992-1199 lg 1rem=8px */
+@media screen and (min-width: 992px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .four-wark {
+        left: 32%;
+    }
+
+    .mySwiper {
+        height: 59vh;
+    }
+
+
+
+    .four-slide {
+        height: 550px;
+    }
+
+    #blog {
+        height: 550px;
+    }
+
+    .about-details .about-wark {
+        padding: 6rem;
+    }
+
+    #menu {
+        height: 104rem;
+    }
+
+    .spring-i {
+        width: 92%;
+    }
+}
+
+
+/* 1200-1399 xl 1rem=9px*/
+@media screen and (min-width: 1200px) {
+
+    html {
+        font-size: 56.25%;
+    }
+
+    .four-wark {
+        left: 45%;
+    }
+
+    .mySwiper {
+        height: 68vh;
+    }
+
+    .four-slide {
+        height: 600px;
+    }
+
+    #blog {
+        height: 600px;
+    }
+
+    .about-details .about-wark {
+        padding: 9rem;
+    }
+
+    .four-wark .btt {
+        margin-right: 49rem;
+    }
+
+    .spring-i {
+        width: 93%;
+    }
+
+
+}
+
+
+/* 1400-1919 xxl 10px*/
+@media screen and (min-width: 1400px) {
+
+    html {
+        font-size: 62.5%;
+    }
+
+    .mySwiper {
+        height: 90vh;
+    }
+
+
+    .four-slide {
+        height: 680px;
+    }
+
+    #blog {
+        height: 670px;
+    }
+
+    .four-wark {
+        left: 60%;
+    }
+
+    .four-wark .btt {
+        margin-right: 43rem;
+    }
+
+    .spring-i {
+        width: 94%;
+    }
+}
+
+
+/* 1920-any 10px*/
+@media screen and (min-width: 1920px) {
+
+    .four-wark {
+        left: 60%;
+    }
+
+    .four-slide {
+        height: 700px;
+    }
+
+    #menu {
+        height: 104rem;
+    }
+
+
+    .mySwiper {
+        height: 100vh;
+    }
+
+    .blog-p {
+        width: 90rem;
+    }
+
+    .about-details .about-wark {
+        padding: 15rem;
+    }
+
+    .four-wark .btt {
+        margin-right: 40rem;
+    }
+
+    #blog {
+        height: 650px;
+    }
+
+    .spring-i {
+        width: 95%;
+        left: 1.1rem;
+
+    }
+
+}

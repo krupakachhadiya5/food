@@ -1,0 +1,1054 @@
+/* https://preview.themeforest.net/item/beef-modern-restaurant-template/full_screen_preview/51440602?_ga=2.158459186.900443805.1723004367-1146038044.1719810406 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    font-family: 'Josefin Sans';
+}
+
+
+/* *********************header************************* */
+header .container {
+    max-width: 1670px;
+    margin: 0 auto;
+    /* background-color: black; */
+}
+
+.topheader {
+    /* display: flex;
+    justify-content: space-between; */
+    padding: 1.5rem 3rem;
+}
+
+.locesan {
+    font-size: 1.8rem;
+    color: rgb(214, 208, 208);
+}
+
+.locesan:hover {
+    color: #D9B282;
+}
+
+.content {
+    font-size: 1.8rem;
+    display: flex;
+    color: rgb(214, 208, 208);
+}
+
+.content-i:hover {
+    color: #D9B282;
+}
+
+.content-ii:hover {
+    color: #D9B282;
+}
+
+.content-i {
+    padding: 0 4rem 0 0;
+}
+
+.bottomheader img {
+    /* color: black; */
+    height: 7rem;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-size: 1.8rem;
+    /* z-index: 999; */
+}
+
+.bottomheader .ican {
+    display: flex;
+    color: #D9B282;
+    font-size: 1.8rem;
+    column-gap: 3rem;
+}
+
+
+.bottomheader .fb:hover {
+    color: rgb(68, 65, 65);
+}
+
+.bottomheader .tw:hover {
+    color: rgb(68, 65, 65);
+}
+
+.bottomheader .in:hover {
+    color: rgb(68, 65, 65);
+}
+
+.navbar-expand-lg .navbar-nav {
+    padding: 0 6rem 0 0;
+    font-family: 'Josefin Sans';
+
+}
+
+.nav-item {
+    padding-left: 5rem;
+}
+
+.nav-link:hover {
+    color: #D9B282 !important;
+}
+
+.navbar-expand-lg {
+    padding: 0 3rem;
+}
+
+
+/* ********************************************* */
+
+/* *********************hero************************ */
+
+
+/* #hero {
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+#hero::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.swiper-slide{
+    position: relative;
+    z-index: 9999;
+}   */
+
+.mySwiper {
+    width: 100%;
+    height: 100vh;
+}
+
+.mySwiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.mySwiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-deta {
+    position: absolute;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.hero-wark {
+    position: absolute;
+    left: 12rem;
+    bottom: 20rem;
+
+}
+
+.hero-deta h4 {
+    color: #D9B282;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.hero-deta p {
+    color: white;
+    font-size: 2rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    font-weight: 100;
+    padding-top: 1rem;
+    font-family: 'Josefin Sans';
+}
+
+.hero-deta h2 {
+    color: white;
+    font-size: 8rem;
+    font-weight: 100;
+}
+
+
+/* .swiper-pagination-bullet-active {
+    column-gap: 20px;
+} 
+
+.mySwiper .swiper-pagination-bullet-active:hover{
+    background-color: #D9B282;  
+}   */
+
+#hero .bt {
+    padding-top: 5rem;
+    color: #D9B282;
+}
+
+#hero .bt a {
+    border: 2px solid #D9B282;
+    text-decoration: none;
+    color: #D9B282;
+    padding: 1.5rem 5rem;
+    font-weight: bold;
+    border-radius: 5rem;
+}
+
+#hero .bt a:hover {
+    color: #262626;
+    background-color: #D9B282;
+}
+
+.swiper-pagination-bullet::after {
+    content: '';
+    border: 1.5px solid #D9B282;
+    width: 230%;
+    height: 230%;
+    display: block;
+    border-radius: 25px;
+    position: absolute;
+    left: -7px;
+    top: -7px;
+}
+
+.swiper-pagination-bullet {
+    position: relative;
+    width: 12px !important;
+    height: 12px !important;
+    background-color: yellow !important;
+    display: block !important;
+    border-radius: 10px !important;
+    margin: 3rem 0 !important;
+}
+
+.swiper-pagination-vertical.swiper-pagination-bullets,
+.swiper-vertical>.swiper-pagination-bullets {
+    padding: 0 3rem;
+}
+
+/* ********************************************* */
+
+/* *********************About************************ */
+#About {
+    background-color: black;
+}
+
+.about-img img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.about-wark .main-title {
+    font-size: 2rem;
+    color: #D9B282;
+    font-family: Sorts Mill Goudy, serif;
+    font-style: italic;
+
+}
+
+.about-wark .sub-title {
+    font-size: 6.8rem;
+    color: white;
+    font-family: Barlow Condensed, sans-serif;
+    font-weight: 400;
+
+}
+
+.about-wark p {
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 300;
+    padding: 2rem 0;
+    font-family: 'Josefin Sans';
+
+}
+
+.about-wark .Our {
+    padding: 0 0 3rem 0;
+}
+
+/* .about-wark {
+    max-width: 720px;
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+} */
+
+.Hours {
+    border: 0.7px solid #D9B282;
+    padding: 2.7rem;
+}
+
+.Hours h2 {
+    color: white;
+    font-family: Barlow Condensed, sans-serif;
+    font-size: 3.8rem;
+}
+
+.nature {
+    padding: 0 0 2rem 0
+}
+
+
+.Opening {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.organic h3 {
+    font-size: 1.8rem;
+    color: #D9B282;
+    padding: 0 0 1rem 0;
+    font-family: 'Josefin Sans';
+
+}
+
+.time h4 {
+    font-size: 1.8rem;
+    color: white;
+    padding: 0 0 1rem 0;
+    font-family: 'Josefin Sans';
+    font-weight: 100;
+}
+
+/* ********************************************* */
+
+/* **********************four*********************** */
+
+.four-slide {
+    width: 100%;
+}
+
+.four-slide .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.four-slide .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.four-deta {
+    position: absolute;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+}
+
+.four-wark {
+    background-color: rgba(5, 6, 8, .9);
+    /* max-width: 580px; */
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.four-wark span {
+    color: #D9B282;
+    font-family: Sorts Mill Goudy, serif;
+    font-style: italic;
+    margin-right: 43rem;
+
+}
+
+.Cheese {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(60, 53, 53);
+    margin: 1rem 0 3rem;
+}
+
+.Cheese h3 {
+    color: white;
+    font-size: 3.8rem;
+    /* line-height: 1.2 !important; */
+    font-family: Barlow Condensed;
+    font-weight: 300;
+}
+
+.Cheese h4 {
+    color: #D9B282;
+    font-family: Barlow Condensed, serif;
+    font-size: 3.8rem;
+    font-weight: 300;
+}
+
+.four-wark P {
+    color: rgb(158, 143, 143);
+    font-family: Sorts Mill Goudy, serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 2.1rem;
+    text-align: left;
+    margin: 0 0 3rem;
+
+}
+
+.four-wark .Aenean {
+    font-family: 'Josefin Sans';
+    font-size: 1.8rem;
+    color: rgb(196, 185, 185);
+    font-style: normal;
+}
+
+.four-wark .btt {
+    color: #D9B282;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #D9B282;
+    margin-right: 43rem;
+}
+
+
+
+/* ********************************************* */
+
+/* *********************business************************ */
+
+#business {
+    background-color: #0A0D0F;
+    padding: 13rem 0;
+}
+
+.about-deta {
+    justify-content: space-around;
+    row-gap: 3rem;
+}
+
+.about-deta img{
+    width: 100%;
+}
+
+/* ********************************************* */
+
+
+/* *********************menu************************ */
+#menu {
+    width: 100%;
+    background-image: url(../image/menu.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+#menu::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+
+}
+
+.menu-deta {
+    position: relative;
+    z-index: 9999;
+    text-align: center;
+}
+
+
+.menu-deta h3 {
+    color: #D9B282;
+    font-family: Sorts Mill Goudy, serif;
+    font-style: italic;
+    padding-top: 10rem;
+    font-size: 2.3rem;
+}
+
+.menu-deta h4 {
+    color: white;
+    font-family: Barlow Condensed, sans-serif;
+    font-size: 5.5rem;
+    font-weight: 400;
+}
+
+.menu-deta p {
+    font-size: 1.8rem;
+    color: rgb(204, 193, 193);
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+}
+
+.first {
+    padding: 4rem 11rem 0rem 11rem;
+}
+
+.first-deta {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #484D51;
+    padding: 0 0 0.3rem 0;
+}
+
+.first-deta h4 {
+    font-size: 2.2rem;
+    font-weight: 300;
+    font-family: "Barlow Condensed", sans-serif;
+    color: white;
+    text-transform: capitalize;
+}
+
+.first-deta h5 {
+    font-size: 2.2rem;
+    font-family: "Barlow Condensed", sans-serif;
+    color: #D9B282;
+
+}
+
+.first-wark h6 {
+    font-size: 1.8rem;
+    color: rgb(169, 169, 170);
+    font-family: Sorts Mill Goudy, serif;
+    font-style: italic;
+    font-weight: 300;
+    text-align: left;
+    padding: 0.3rem 0;
+}
+
+#menu .Sea {
+    padding: 4rem 4rem 2rem 4rem;
+}
+
+.sea-deta {
+    padding: 0.8rem 0;
+}
+
+.first .bt {
+    font-size: 1.8rem;
+}
+
+#menu .bt {
+    padding-top: 5rem;
+    color: #D9B282;
+}
+
+#menu .bt a {
+    border: 2px solid #D9B282;
+    text-decoration: none;
+    color: #D9B282;
+    padding: 1.5rem 5rem;
+    font-weight: bold;
+    border-radius: 5rem;
+}
+
+#menu .bt a:hover {
+    color: #262626;
+    background-color: #D9B282;
+}
+
+/* ********************************************* */
+
+/* **********************fresh*********************** */
+#fresh {
+    background-color: black;
+    padding: 13rem 0;
+}
+
+.fresh-deta {
+    background-color: #0F1115;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 7rem 1.9rem 9rem 1.9rem;
+    width: 100%;
+    margin: 0 2rem;
+
+}
+
+.fresh-deta h3 {
+    color: white;
+    font-size: 2.8rem;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+}
+
+
+.fresh-deta p {
+    font-weight: 300;
+    font-size: 1.7rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(212, 209, 209);
+    text-align: center;
+    padding: 2rem 0 3rem 0rem;
+}
+
+.fresh-deta .none-img {
+    margin: 0 auto;
+    width: 12rem;
+}
+
+.fresh-deta .hover-img {
+    margin: 0 auto;
+    width: 12rem;
+    display: none;
+}
+
+.element-deta:hover .none-img {
+    display: none;
+}
+
+.element-deta:hover .hover-img {
+    display: block;
+}
+
+.fresh-deta .btt {
+    color: #D9B282;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #D9B282;
+    padding: 0rem 2rem 1rem 2rem;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.element {
+    padding: 0 10rem;
+}
+
+.element-deta {
+    display: flex;
+    justify-content: center;
+}
+
+/* ********************************************* */
+
+
+/* *********************blog************************ */
+#blog {
+    width: 100%;
+    background-image: url(../image/about-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+#blog::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+
+}
+
+.blog-deta {
+    position: relative;
+    z-index: 9999;
+    text-align: center;
+}
+
+.blog-deta h3 {
+    color: white;
+    font-size: 5.8rem;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 300;
+    padding: 10rem 0 4rem 0;
+}
+
+.blog-p {
+    border-top: 1px solid #D9B282;
+    margin: 0 auto;
+    border-bottom: 1px solid #D9B282;
+    padding: 5rem 11rem;
+}
+
+.blog-p p {
+    font-family: Josefin Sans, sans-serif;
+    font-size: 2.1rem;
+    color: rgb(219, 213, 213);
+    font-weight: 300;
+
+}
+
+#blog .bt {
+    padding-top: 6rem;
+    color: #D9B282;
+    font-size: 1.8rem;
+}
+
+#blog .bt a {
+    border: 2px solid #D9B282;
+    text-decoration: none;
+    color: #D9B282;
+    padding: 1.5rem 5rem;
+    font-weight: bold;
+    border-radius: 5rem;
+}
+
+#blog .bt a:hover {
+    color: #262626;
+    background-color: #D9B282;
+}
+
+/* ********************************************* */
+
+
+/* *********************Gallery************************ */
+#Gallery {
+    background-color: black;
+}
+
+#Gallery .container {
+    max-width: 190rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+.Gallery-deta {
+    text-align: center;
+    padding: 0 0 5rem 0;
+}
+
+.Gallery-deta h3 {
+    color: #D9B282;
+    font-family: Sorts Mill Goudy, serif;
+    font-style: italic;
+    padding-top: 10rem;
+    font-size: 2.3rem;
+}
+
+.Gallery-deta h4 {
+    color: white;
+    font-family: Barlow Condensed, sans-serif;
+    font-size: 5.5rem;
+    font-weight: 400;
+}
+
+.Gallery-deta p {
+    font-size: 1.8rem;
+    color: rgb(204, 193, 193);
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    padding: 1rem 0 3rem 0;
+}
+
+.spring-deta h3 {
+    font-family: Barlow Condensed, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.spring-deta h4 {
+    color: #D9B282;
+    font-family: Sorts Mill Goudy, serif;
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.spring-img img {
+    height: 35rem;
+    object-fit: cover;
+    transition: all 1s;
+    width: 100%;
+}
+
+.spring-deta {
+    padding: 2rem 2rem 4rem 2rem;
+}
+
+.spring-img:hover img {
+    transform: scale(1.3);
+}
+
+.spring-img:hover .spring-i {
+    display: flex;
+}
+
+.spring-img {
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.spring-i {
+    font-size: 3rem;
+    background-color: #D9B282;
+    position: absolute;
+    height: 33rem;
+    top: 1rem;
+    opacity: 0.8;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+
+.spring-i {
+    color: #000;
+}
+
+.spring-i::before {
+    content: '';
+    position: relative;
+    bottom: 30rem;
+
+}
+
+/* ********************************************* */
+
+
+/* **********************team*********************** */
+#team {
+    background-color: #0A0D0F;
+}
+
+.team-deta {
+    text-align: center;
+    padding: 10rem 0;
+}
+
+.team-deta h3 {
+    color: #D9B282;
+    font-family: Sorts Mill Goudy, serif;
+    font-style: italic;
+    font-size: 2.3rem;
+}
+
+.team-deta h4 {
+    color: white;
+    font-family: Barlow Condensed, sans-serif;
+    font-size: 5.5rem;
+    font-weight: 400;
+}
+
+.team-wark {
+    background-color: black;
+}
+
+.team-img {
+    padding: 11rem;
+
+}
+
+.team-img img {
+    width: 11rem;
+    height: 11rem;
+    border-bottom: 2px solid #D9B282;
+    margin-bottom: 2rem;
+    padding: 2rem 2rem;
+}
+
+.team-img p {
+    color: white;
+    font-family: Sorts Mill Goudy, serif;
+    font-size: 2rem;
+    font-style: italic;
+    letter-spacing: 1.5px;
+    line-height: 1.4;
+}
+
+.team-wark .col-3 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.guru-img img {
+    width: 100%;
+    height: 50rem;
+    object-fit: cover;
+    transition: all 1s;
+}
+
+.guru-img:hover img {
+    transform: scale(1.3);
+}
+
+.guru-img {
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.guru-i {
+    font-size: 3rem;
+    background-color: #D9B282;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    display: none;
+}
+
+.guru-img:hover .guru-i {
+    display: flex;
+}
+
+.guru-i h4 {
+    color: #390608;
+    font-family: Barlow Condensed, sans-serif;
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+
+.guru-i h5 {
+    font-family: Sorts Mill Goudy, serif;
+    font-size: 1.8rem;
+    font-style: italic;
+    color: gray;
+}
+
+.guru-i ul li a {
+    color: black;
+}
+
+.guru-i ul {
+    font-size: 2rem;
+    justify-content: space-between;
+    display: flex;
+    margin: 2rem 0 0 0;
+    padding: 0;
+}
+
+.guru-li {
+    text-align: center;
+    translate: -50% -50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* ********************************************* */
+
+
+/* *********************footer************************ */
+
+footer {
+    background-color: black;
+    padding: 9rem;
+
+}
+
+.footer-img img {
+    width: 17%;
+    margin: 0 auto;
+}
+
+.footer-beef{
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+    padding: 5rem 0;
+
+}
+
+.footer-deta h3 {
+    font-family: Josefin Sans, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: white;
+    text-align: right;
+}
+
+.footer-wark  ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.footer-wark  ul li a:hover {
+    color: #D9B282;
+}
+
+
+.footer-deta .ican {
+    display: flex;
+    color: #D9B282;
+    font-size: 1.8rem;
+    column-gap: 3rem;
+    justify-content: center;
+    padding:0 0 0 4rem;
+}
+
+
+.footer-deta .fb:hover {
+    color: rgb(68, 65, 65);
+}
+
+.footer-deta .tw:hover {
+    color: rgb(68, 65, 65);
+}
+
+.footer-deta .in:hover {
+    color: rgb(68, 65, 65);
+}
+/* ********************************************* */
